@@ -1,0 +1,28 @@
+root@LAPTOP-6PVEQS98:/mnt/c/Users/grone/desktop/MakefilesHW/makefileassignment-sgrone# make all
+gcc  -c driver.c
+gcc  -c file1.c
+gcc  -c file2.c
+gcc  -o makefileAssignment driver.o file1.o file2.o
+root@LAPTOP-6PVEQS98:/mnt/c/Users/grone/desktop/MakefilesHW/makefileassignment-sgrone# touch driver.c
+root@LAPTOP-6PVEQS98:/mnt/c/Users/grone/desktop/MakefilesHW/makefileassignment-sgrone# make all
+gcc  -c driver.c
+gcc  -o makefileAssignment driver.o file1.o file2.o
+root@LAPTOP-6PVEQS98:/mnt/c/Users/grone/desktop/MakefilesHW/makefileassignment-sgrone# touch file1.c file2.c
+root@LAPTOP-6PVEQS98:/mnt/c/Users/grone/desktop/MakefilesHW/makefileassignment-sgrone# make all
+gcc  -c file1.c
+gcc  -c file2.c
+gcc  -o makefileAssignment driver.o file1.o file2.o
+root@LAPTOP-6PVEQS98:/mnt/c/Users/grone/desktop/MakefilesHW/makefileassignment-sgrone# make clean
+rm -fr makefileAssignment driver.o file1.o file2.o
+root@LAPTOP-6PVEQS98:/mnt/c/Users/grone/desktop/MakefilesHW/makefileassignment-sgrone# make all
+gcc  -c driver.c
+gcc  -c file1.c
+gcc  -c file2.c
+gcc  -o makefileAssignment driver.o file1.o file2.o
+root@LAPTOP-6PVEQS98:/mnt/c/Users/grone/desktop/MakefilesHW/makefileassignment-sgrone# touch headers.h
+root@LAPTOP-6PVEQS98:/mnt/c/Users/grone/desktop/MakefilesHW/makefileassignment-sgrone# make all
+gcc  -c driver.c
+gcc  -c file1.c
+gcc  -c file2.c
+gcc  -o makefileAssignment driver.o file1.o file2.o
+root@LAPTOP-6PVEQS98:/mnt/c/Users/grone/desktop/MakefilesHW/makefileassignment-sgrone#  
